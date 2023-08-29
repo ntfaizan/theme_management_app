@@ -18,64 +18,14 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              const TextField(),
+              const SizedBox(height: 20),
               const TextField(
-                decoration: InputDecoration(
-                  hintText: 'Type full name here',
-                  fillColor: Color(0xffdfe6e9),
-                  filled: true,
-                  contentPadding: EdgeInsets.all(17),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                    borderSide: BorderSide(
-                      color: Colors.transparent,
-                    ),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                    borderSide: BorderSide(
-                      color: Colors.transparent,
-                    ),
-                  ),
-                ),
+                decoration: InputDecoration(hintText: 'Type full name here'),
               ),
               const SizedBox(height: 20),
               const TextField(
-                decoration: InputDecoration(
-                  hintText: 'Type father name here',
-                  fillColor: Color(0xffdfe6e9),
-                  filled: true,
-                  contentPadding: EdgeInsets.all(17),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                    borderSide: BorderSide(
-                      color: Colors.transparent,
-                    ),
-                  ),
-                  focusedBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(8.0),
-                    ),
-                    borderSide: BorderSide(
-                      color: Colors.transparent,
-                    ),
-                  ),
-                ),
+                decoration: InputDecoration(hintText: 'Type father name here'),
               ),
               Text('$counter'),
               const Text('Push ups'),
